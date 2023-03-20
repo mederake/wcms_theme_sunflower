@@ -1,7 +1,7 @@
 {
     "version": 1,
     "themes": {
-        "frauenzirkel": {
+        "wcms_theme_frauenzirkel": {
             "name": "Grüner Frauenzirkel",
             "summary": "Grüner Frauenzirkel WonderCMS theme (2022). Theme for german Green party women group of Gelsenkirchen.",
             "version": "1.0.5",
