@@ -56,9 +56,11 @@ $baseUrl =
                 </a>
                 <div>
                     <a href="<?= $baseUrl ?>" class="d-block h5 text-white bloginfo-name no-link">
-                        Grüner Frauenzirkel </a>
+                        <?= $Wcms->get('config', 'siteTitle') ?>
+                    </a>
                     <a href="<?= $baseUrl ?>" class="d-block text-white mb-0 bloginfo-description no-link">
-                        Offener Frauenkreis der Grünen Gelsenkirchen </a>
+                        Offener Frauenkreis der Grünen Gelsenkirchen
+                    </a>
                 </div>
             </div>
         </div>

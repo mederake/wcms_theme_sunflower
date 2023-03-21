@@ -4,7 +4,7 @@
         "wcms_theme_frauenzirkel": {
             "name": "Grüner Frauenzirkel",
             "summary": "Grüner Frauenzirkel WonderCMS theme (2022). Theme for german Green party women group of Gelsenkirchen.",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "repo": "https://raw.githubusercontent.com/mederake/wcms_theme_frauenzirkel/main/wcms-modules.json",
             "zip": "https://github.com/mederake/wcms_theme_frauenzirkel/archive/refs/heads/main.zip",
             "image": "https://raw.githubusercontent.com/mederake/wcms_theme_frauenzirkel/main/preview.jpg"

@@ -8,3 +8,8 @@
         display: block;
     }
 }
+
+
+.note-editor .note-toolbar .note-dropdown-menu, .note-popover .popover-content .note-dropdown-menu {
+    background-color: #fff;
+}
