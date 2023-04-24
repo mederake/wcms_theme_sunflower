@@ -59,7 +59,7 @@ $baseUrl =
                         <?= $Wcms->get('config', 'siteTitle') ?>
                     </a>
                     <a href="<?= $baseUrl ?>" class="d-block text-white mb-0 bloginfo-description no-link">
-                        Offener Frauenkreis der Grünen Gelsenkirchen
+                        <?= strip_tags($Wcms->block('subside')) ?>
                     </a>
                 </div>
             </div>
@@ -103,11 +103,6 @@ $baseUrl =
     </div>
 
 
-    <div class="container-fluid bg-darkgreen p-5 text-white mt-5">
-        <aside id="secondary" class="widget-area container">
-            <?= $Wcms->block('subside') ?>
-        </aside>
-    </div>
     <footer id="colophon" class="site-footer">
         <div class="container site-info">
             <div class="row">
@@ -150,7 +145,7 @@ $baseUrl =
                 </div>
                 <div class="col-4 col-md-2">
 
-                    <img src="https://sunflower-theme.de/wp-content/themes/sunflower/assets/img/logo-diegruenen.svg"
+                    <img src="/css/assets/img/logo-diegruenen.svg"
                          class="img-fluid" alt="Logo Bündnis 90/Die Grünen">
                 </div>
             </div>

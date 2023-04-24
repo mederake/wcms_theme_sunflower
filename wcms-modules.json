@@ -1,13 +1,13 @@
 {
     "version": 1,
     "themes": {
-        "wcms_theme_frauenzirkel": {
-            "name": "Grüner Frauenzirkel",
-            "summary": "Grüner Frauenzirkel WonderCMS theme (2022). Theme for german Green party women group of Gelsenkirchen.",
-            "version": "1.0.6",
-            "repo": "https://raw.githubusercontent.com/mederake/wcms_theme_frauenzirkel/main/wcms-modules.json",
-            "zip": "https://github.com/mederake/wcms_theme_frauenzirkel/archive/refs/heads/main.zip",
-            "image": "https://raw.githubusercontent.com/mederake/wcms_theme_frauenzirkel/main/preview.jpg"
+        "wcms_theme_sunflower": {
+            "name": "Sunflower",
+            "summary": "Grünes WonderCMS theme (2022) Sunflower. Theme for german Green party.",
+            "version": "1.0.7",
+            "repo": "https://raw.githubusercontent.com/mederake/wcms_theme_sunflower/main/wcms-modules.json",
+            "zip": "https://github.com/mederake/wcms_theme_sunflower/archive/refs/heads/main.zip",
+            "image": "https://raw.githubusercontent.com/mederake/wcms_theme_sunflower/main/preview.jpg"
         }
     }
 }
