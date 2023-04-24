@@ -58,9 +58,9 @@ $baseUrl =
                     <a href="<?= $baseUrl ?>" class="d-block h5 text-white bloginfo-name no-link">
                         <?= $Wcms->get('config', 'siteTitle') ?>
                     </a>
-                    <a href="<?= $baseUrl ?>" class="d-block text-white mb-0 bloginfo-description no-link">
-                        <?= strip_tags($Wcms->block('subside')) ?>
-                    </a>
+                    <span class="d-block text-white mb-0 bloginfo-description no-link">
+                        <?= $Wcms->block('pageSubtitle') ?>
+                    </span>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@ $baseUrl =
     </nav>
 
 
-    <div id="content" class="container styled-layout mt-5">
+    <div id="content" class="container styled-layout mt-5" style="min-height: calc(100vh - 550px);">
 
         <div class="row">
             <div class="col-12">
@@ -103,7 +103,7 @@ $baseUrl =
     </div>
 
 
-    <footer id="colophon" class="site-footer">
+    <footer id="colophon" class="site-footer mt-4">
         <div class="container site-info">
             <div class="row">
                 <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
@@ -145,7 +145,7 @@ $baseUrl =
                 </div>
                 <div class="col-4 col-md-2">
 
-                    <img src="/css/assets/img/logo-diegruenen.svg"
+                    <img src="<?= $Wcms->asset('css/assets/img/logo-diegruenen.svg') ?>"
                          class="img-fluid" alt="Logo Bündnis 90/Die Grünen">
                 </div>
             </div>

@@ -4,7 +4,7 @@
         "wcms_theme_sunflower": {
             "name": "Sunflower",
             "summary": "Grünes WonderCMS theme (2022) Sunflower. Theme for german Green party.",
-            "version": "1.0.7",
+            "version": "1.0.8",
             "repo": "https://raw.githubusercontent.com/mederake/wcms_theme_sunflower/main/wcms-modules.json",
             "zip": "https://github.com/mederake/wcms_theme_sunflower/archive/refs/heads/main.zip",
             "image": "https://raw.githubusercontent.com/mederake/wcms_theme_sunflower/main/preview.jpg"
